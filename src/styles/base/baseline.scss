@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  overflow-x: hidden!important;
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background: #faf7f2;
+  /*background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);*/
+  width: 100%!important;
+  font-size: 1.7rem;
+  font-weight: 400;
+  position: relative;
+  margin: 0;
+  overflow-x: hidden!important;
+}
+body.noscroll {
+  overflow: auto!important;
+  position: fixed;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

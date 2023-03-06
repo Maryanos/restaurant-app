@@ -13,7 +13,6 @@ function Restaurant()  {
           <MenuCard image={i.image} name={i.name} category={i.category} price={i.price} description={i.description} key={i.id}/>
         ))}
       </div>
-
     </>
   )
 }

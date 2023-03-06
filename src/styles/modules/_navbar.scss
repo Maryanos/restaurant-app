@@ -1,0 +1,64 @@
+/* ---------- Button styles ------------------ */
+
+.navbar {
+  padding-top: 5rem;
+  text-align: center;
+
+  span {
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+/** button group styles **/
+.btn-group {
+  border-radius: 1rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    border: none;
+    /* min-width: 6rem; */
+    padding: 1.5rem 3rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0;
+    box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+    transition: all 300ms ease-out;
+    text-transform: capitalize;
+  }
+  &__item:last-child {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  &__item:first-child {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  &__item:hover,
+  &__item:focus {
+    color: rebeccapurple;
+    box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+  }
+  &__item:focus {
+    outline: none;
+  }
+  &__item:after {
+    content: "✔️";
+    margin-left: 0.5rem;
+    display: inline-block;
+    color: rebeccapurple;
+    position: absolute;
+    transform: translatey(10px);
+    opacity: 0;
+    transition: all 200ms ease-out;
+  }
+  &__item--active:after {
+    opacity: 1;
+    transform: translatey(-2px);
+  }
+}
+

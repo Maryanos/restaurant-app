@@ -4,11 +4,11 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <nav className="btn-group">
-        <h1 className="btn-group__item">Breakfast</h1>
-        <h1 className="btn-group__item">Evening</h1>
-        <h1 className="btn-group__item">Lunch</h1>
-        <h1 className="btn-group__item">Dinner</h1>
-        <h1 className="btn-group__item">All</h1>
+        <span className="btn-group__item">Breakfast</span>
+        <span className="btn-group__item">Evening</span>
+        <span className="btn-group__item">Lunch</span>
+        <span className="btn-group__item">Dinner</span>
+        <span className="btn-group__item">All</span>
       </nav>
     </div>
   )

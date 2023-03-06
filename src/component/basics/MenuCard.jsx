@@ -6,13 +6,15 @@ function MenuCard(props) {
       <div className="card-container">
         <div className="card">
           <div className="card-body">
-            <span className="card-number card-circle subtle">{props.price}</span>
+            <div className="card-circle">
+              <span className="card-number subtle">{props.price}</span>
+            </div>
             <span className="card-author subtle">{props.category}</span>
             <h2 className="card-title">{props.name}</h2>
             <span className="card-description subtle">{props.description}</span>
             <div className="card-read">READ</div>
             <img src={props.image} alt={props.name} className="card-media" />
-            <span className="card-tag subtle">Order Now</span>
+            <span className="card-tag">Order Now</span>
           </div>
         </div>
       </div>
