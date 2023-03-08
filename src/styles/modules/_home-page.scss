@@ -1,0 +1,7 @@
+.wrapper {
+  padding: 2.5rem;
+
+  @include tablet {
+    padding: 5rem;
+  }
+}

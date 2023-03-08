@@ -84,7 +84,11 @@
   height: .1rem;
   position: absolute;
   top: .9rem;
-  width: 75%;
+  min-width: 55%;
+
+  @include tablet {
+    min-width: 75%;
+  }
 }
 
 .card-tag {
