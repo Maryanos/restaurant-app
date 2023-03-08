@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.07377a8a.css",
+    "main.js": "/react-gh-pages/static/js/main.b820e948.js",
+    "static/media/pizza.jpg": "/react-gh-pages/static/media/pizza.beb988c8a812e6be9a20.jpg",
+    "static/media/chola.jpg": "/react-gh-pages/static/media/chola.c74e8541645e50eabd13.jpg",
+    "static/media/sweet.jpg": "/react-gh-pages/static/media/sweet.9641a43b567a720ba27c.jpg",
+    "static/media/nonvegthali.jpg": "/react-gh-pages/static/media/nonvegthali.317b9ed5f681ab5e9cd8.jpg",
+    "static/media/allupakoida.jpg": "/react-gh-pages/static/media/allupakoida.19bb4bd0337caa209c6a.jpg",
+    "static/media/samosa.jpg": "/react-gh-pages/static/media/samosa.31e4f81f8a14da5f7799.jpg",
+    "static/media/rajmarice.jpg": "/react-gh-pages/static/media/rajmarice.1808a67652826eb3eac2.jpg",
+    "static/media/maggi.jpg": "/react-gh-pages/static/media/maggi.d51edea3324ffc85ac3d.jpg",
+    "static/media/corn.jpg": "/react-gh-pages/static/media/corn.8f92996cf53ac99ba914.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.07377a8a.css.map": "/react-gh-pages/static/css/main.07377a8a.css.map",
+    "main.b820e948.js.map": "/react-gh-pages/static/js/main.b820e948.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07377a8a.css",
+    "static/js/main.b820e948.js"
+  ]
+}
