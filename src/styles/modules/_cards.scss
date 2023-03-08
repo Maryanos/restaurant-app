@@ -24,8 +24,9 @@
   background-color: #fff;
   padding: 3rem;
   position: relative;
-  box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
+  box-shadow: 5px 5px 10px #4b4b4b34;
   z-index: 1;
+  border-radius: 4rem;
 }
 
 .card-body {
@@ -97,6 +98,7 @@
   border: 1px solid #aaa;
   padding: .5rem 1rem;
   cursor: pointer;
+  border-radius: 1rem;
 }
 
 .card-tag:hover {
